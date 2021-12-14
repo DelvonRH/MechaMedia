@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Varela+Round&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+header
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 23.5px 6%;
+    overflow: hidden;
+    background-color: black;
+}
+
+header h2
+{
+    font-family: 'Irish Grover', cursive;
+}
+
+#logo
+{
+    color: white;
+}
+
+body
+{
+    background-image: url(Image/Webpage\ Image.jpg);
+}
+
+#overlay
+{
+    position: fixed; 
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    background-color: rgba(0,0,0,.5); /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+}
+
+#signupDiv
+{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%); 
+    width: 25%; /* Full width (cover the whole page) */
+    height: 75%; /* Full height (cover the whole page) */
+    background-color: rgba(0,0,0,.8); /* Black background with opacity */
+    color: white;
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+}
+
+#signup
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); 
+    width: 75%; /* Full width (cover the whole page) */
+    height: 75%; /* Full height (cover the whole page) */
+    color: white;
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    text-align: center;
+}
+
+#signup h1
+{
+    font-family: 'Varela Round', sans-serif;
+}
+
+input
+{
+    background-color: #333;
+    font-family: 'Varela Round', sans-serif;
+    border: #333;
+    width: 100%;
+    padding: 16px 20px;
+    margin-top: 15px;
+    color: white;
+}
+
+#signupBtn
+{
+    margin-top: 30px;
+    width: 100%;
+    padding: 10px;
+    background-color: #d40000;
+    font-family: 'Varela Round', sans-serif;
+    border: #d40000;
+    border-radius: 3%;
+    color: white;
+    cursor: pointer;
+}
+
+#loginref
+{
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 15px;
+}
+
+#signinLink
+{
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+    font-family: 'Varela Round', sans-serif;
+}
+
+/*
+For Red Coloring
+#d40000
+*/

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="index.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <script src="firebase.mjs" type="module"></script>
+        <script src="https://kit.fontawesome.com/a441464eea.js" crossorigin="anonymous"></script>
+        <title>Mecha Media</title>
+    </head>
+    <body>
+        <header>
+            <a id=logo href="/Final Project TV Show Review/index.html"><h2>Mecha Media</h2></a>
+            <nav>
+                <ul class=nav__links>
+                    <li class="active">Home</li>
+                    <li>Movies</li>
+                    <li>TV Shows</li>
+                </ul>
+            </nav>
+            <a class= button id=signinbutton href="/Final Project TV Show Review/signin.html">Sign In</a>
+            <a class= button id=signoutbutton href="#" style="display: none">Sign Out</a>
+        </header>
+        <div id = main>
+            <div id="people">
+                <h2 id="title">Popular People</h2>
+                <div id ="imgPeople"></div>
+            </div>
+            <div id="movies">
+                <h2 id="title">Popular Movies</h2>
+                <div id ="imgMovie"></div>
+            </div>
+            <div id="tvshows">
+                <h2 id="title">Popular Shows</h2>
+                <div id="imgShows"></div>
+            </div>
+            <div id="comments">
+                <div id="addCommentDiv">
+                    <h2>Comments</h2>
+                    <textarea name="" id="newComment" cols="30" rows="3" placeholder="Create comment"></textarea>
+                    <button id="addCommentBtn">Add Comment</button>
+                </div>
+                    <div class="error"></div>
+                </div>
+            </div>    
+        </div>
+    </body>
+</html>

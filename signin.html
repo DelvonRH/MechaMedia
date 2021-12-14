@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="signin.js"></script>
+        <link rel="stylesheet" href="signin.css">
+        <link rel="stylesheet" href="signup.css">
+        <script src="firebase.mjs" type="module"></script>
+        <title>Mecha Media - Sign In</title>
+    </head>
+    <body>
+        <header>
+            <a id=logo href="/Final Project TV Show Review/index.html"><h2>Mecha Media</h2></a>
+        </header>
+        <div id="overlay">
+            <div id="signinDiv">
+                <div id="signin">
+                    <h1>Sign In</h1>
+                    <br>
+                    <input type="email" id="email" placeholder="Email">
+                    <br>
+                    <input type="password" id="password" placeholder="Password">
+                    <br>
+                    <button id="signinBtn">Sign In</button>
+                    <br>
+                    <br>
+                    <p id="loginref">New to Flix? &nbsp;<a id="signupLink" href="#">Sign up now.</a></p>
+                    <div class="error" id="signinerror"></div>
+                </div>
+            </div>
+            <div id="signupDiv" style="display: none;">
+                <div id="signup">
+                    <h1>Sign Up</h1>
+                    <br>
+                    <input type="email" id="emailReg" placeholder="Email">
+                    <br>
+                    <input type="password" id="passwordReg" placeholder="Password">
+                    <br>
+                    <button id="signupBtn">Sign Up</button>
+                    <br>
+                    <br>
+                    <p id="loginref">Already registered? &nbsp;<a id="signinLink" href="#">Sign In.</a></p>
+                    <div class="error" id="signuperror"></div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Varela+Round&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #ddd;
+}
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 0 100px;
+    overflow: hidden;
+    background-color: black;
+}
+
+header h2
+{
+    font-family: 'Irish Grover', cursive;   
+}
+
+#logo
+{
+    color: white;
+}
+
+.nav__links
+{
+    list-style: none;
+}
+
+.nav__links li
+{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav__links li 
+  {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 25px 40px;
+    font-size: 18px;
+    cursor: pointer;
+    font-family: 'Varela Round', sans-serif;
+  }
+
+
+.nav__links li:hover 
+{
+    color: #d40000;
+}
+  
+.nav__links li 
+{
+    transition: all 0.3s ease 0s;
+}
+  
+.nav__links li.active 
+{
+    background-color: #d40000;
+    color: white;
+}
+
+.button
+{
+    padding: 9px 25px;
+    border: none;
+    background-color: #d40000;
+    color: white;
+    cursor: pointer;
+    font-family: 'Varela Round', sans-serif;
+    transition: all 0.3s ease 0s
+}
+
+.button:hover
+{
+    background-color: rgba(255, 0, 0, 0.8);
+}
+
+body
+{
+    background-color: #24252A;
+    margin-bottom: 20px;
+}
+
+.person
+{
+    margin-left: 60px;
+    padding: 5px 15px;
+    display: inline-block;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.movie
+{
+    margin-left: 60px;
+    padding: 5px 15px;
+    text-align: center;
+    display: inline-block;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.shows
+{
+    margin-left: 60px;
+    padding: 5px 15px;
+    text-align: center;
+    display: inline-block;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.person img
+{
+    border-radius: 13px;
+}
+
+.movie img
+{
+    border-radius: 13px;
+}
+
+.shows img
+{
+    border-radius: 13px;
+}
+
+#title
+{
+    color: white;
+    line-height: 90px;
+    font-family: 'Varela Round', sans-serif;
+    margin-left: 30px;
+    text-decoration: underline;
+}
+
+#comments 
+{
+    width: 90%;
+    border: solid 2px white;
+    background-color: rgba(0, 0, 0, 0.25);
+    margin: auto;
+}
+
+.comment 
+{
+    border: solid 2px white;
+    background-color: rgba(0, 0, 0, 0.25);
+    margin: 15px;
+    padding: 15px;
+    position: relative;
+}
+
+.currentUserComment
+{
+    background-color: red;
+}
+
+.Trash
+{
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    border: whitesmoke solid 1px;
+    padding: 5px;
+    border-radius: 5px;
+    right: 8em;
+    top: 1.73em;
+}
+
+.Edit
+{
+    color: white;
+    cursor: pointer;
+    border: whitesmoke solid 1px;
+    position: absolute;
+    padding: 5px;
+    border-radius: 5px;
+    top: 1.73em;
+    right: 10em;
+}
+
+#newComment
+{
+    margin-left: 10px;
+    background-color: #24252A;
+    caret-color: white;
+    color: white;
+    width: 50%;
+    margin-top: 10px;
+    resize: none;
+}
+
+
+#addCommentBtn
+{
+    padding: 9px 25px;
+    border: none;
+    background-color: #d40000;
+    color: white;
+    cursor: pointer;
+    font-family: 'Varela Round', sans-serif;
+    transition: all 0.3s ease 0s;
+    vertical-align: top;
+    margin-top: 13px;
+    margin-left: 5px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+#addCommentDiv h2
+{
+    margin-left: 10px;
+    margin-top: 10px;
+    font-family: 'Varela Round', sans-serif;
+    text-decoration: underline;
+}
+
+#tag{
+    color: white;
+    overflow: hidden;
+    padding: 10px 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 200px;
+    text-align: center;
+    text-decoration: underline;
+}
